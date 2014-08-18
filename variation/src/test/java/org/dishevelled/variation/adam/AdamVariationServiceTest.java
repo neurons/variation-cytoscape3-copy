@@ -195,7 +195,7 @@ public final class AdamVariationServiceTest
                 count++;
             }
         }
-        assertEquals(1, count);;
+        assertEquals(1, count);
     }
 
 
