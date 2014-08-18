@@ -87,7 +87,13 @@
       <artifactId>bdg-formats</artifactId>
       <scope>compile</scope>
     </dependency>
-    <dependency>
+      <dependency>
+          <groupId>org.apache.hadoop</groupId>
+          <artifactId>hadoop-core</artifactId>
+          <version>1.0.1</version>
+      </dependency>
+
+      <dependency>
       <groupId>org.dishevelled</groupId>
       <artifactId>dsh-compress</artifactId>
       <scope>compile</scope>
